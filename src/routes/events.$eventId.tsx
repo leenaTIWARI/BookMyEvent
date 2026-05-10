@@ -134,7 +134,7 @@ function SeatMap({ selected, toggle }: { selected: Set<string>; toggle: (id: str
       <div className="flex items-center justify-between flex-wrap gap-3">
         <h2 className="font-display text-xl font-bold">Choose your seats</h2>
         <div className="flex gap-4 text-xs">
-          <Legend color="bg-white/10" label="Available" />
+          <Legend color="bg-muted" label="Available" />
           <Legend color="bg-accent" label="Selected" />
           <Legend color="bg-destructive/60" label="Booked" />
         </div>
@@ -161,7 +161,7 @@ function SeatMap({ selected, toggle }: { selected: Set<string>; toggle: (id: str
                         ? "bg-destructive/40 cursor-not-allowed"
                         : isSel
                           ? "bg-accent text-accent-foreground scale-110 shadow-glow"
-                          : "bg-white/10 hover:bg-primary/40 hover:scale-110"
+                          : "bg-muted hover:bg-primary/40 hover:scale-110"
                     }`}
                   >
                     {i + 1}
