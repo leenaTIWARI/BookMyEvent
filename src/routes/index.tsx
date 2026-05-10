@@ -86,7 +86,7 @@ function Hero() {
             </Link>
             <Link
               to="/organizer"
-              className="glass-strong px-7 py-4 rounded-2xl font-semibold hover:bg-white/10 transition flex items-center gap-2"
+              className="glass-strong px-7 py-4 rounded-2xl font-semibold hover:bg-muted transition flex items-center gap-2"
             >
               Become an Organizer
             </Link>
@@ -247,7 +247,7 @@ function WhyUs() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.07 }}
-            className="glass rounded-2xl p-6 hover:bg-white/[0.07] transition"
+            className="glass rounded-2xl p-6 hover:bg-muted transition"
           >
             <f.icon className="h-6 w-6 text-accent mb-3" />
             <h4 className="font-semibold mb-1">{f.title}</h4>

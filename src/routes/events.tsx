@@ -53,7 +53,7 @@ function EventsPage() {
             <button
               key={c}
               onClick={() => setCat(c)}
-              className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition ${cat === c ? "bg-gradient-primary text-primary-foreground shadow-elegant" : "glass hover:bg-white/10"}`}
+              className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition ${cat === c ? "bg-gradient-primary text-primary-foreground shadow-elegant" : "glass hover:bg-muted"}`}
             >
               {c}
             </button>
